@@ -13,6 +13,7 @@ import Work from '@material-ui/icons/Work';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
+import AboutMe from './tabs/AboutMe';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -84,7 +85,7 @@ export default function MenuTabs() {
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        About Me
+        <AboutMe/>
       </TabPanel>
       <TabPanel value={value} index={1}>
         My Skills
