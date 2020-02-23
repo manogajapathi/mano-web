@@ -12,7 +12,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper
   },
   paper: {
-    padding: theme.spacing(2),
+    padding: 'none',
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
@@ -23,7 +23,7 @@ export default function MainPage() {
 
   return (
     <div className={classes.root}>
-      <Grid container spacing={3}>
+      <Grid container>
         <Grid item xs={12}>
           <Paper className={classes.paper} style={{boxShadow: "none"}}><Header/><MenuTabs/><Footer/></Paper>
         </Grid>
