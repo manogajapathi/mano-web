@@ -14,6 +14,7 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AboutMe from './tabs/AboutMe';
+import Works from './tabs/Works';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -91,7 +92,7 @@ export default function MenuTabs() {
         My Skills
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Work Experience
+        <Works/>
       </TabPanel>
       <TabPanel value={value} index={3}>
         Acadamics
