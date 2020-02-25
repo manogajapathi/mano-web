@@ -15,6 +15,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import AboutMe from './tabs/AboutMe';
 import Works from './tabs/Works';
+import Colleges from './tabs/Colleges';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -95,7 +96,7 @@ export default function MenuTabs() {
         <Works/>
       </TabPanel>
       <TabPanel value={value} index={3}>
-        Acadamics
+        <Colleges/>
       </TabPanel>
       <TabPanel value={value} index={4}>
         Tech Talks
