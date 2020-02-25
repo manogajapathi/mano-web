@@ -16,6 +16,8 @@ import Box from '@material-ui/core/Box';
 import AboutMe from './tabs/AboutMe';
 import Works from './tabs/Works';
 import Colleges from './tabs/Colleges';
+import TechTalks from './tabs/TechTalks';
+
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -99,7 +101,7 @@ export default function MenuTabs() {
         <Colleges/>
       </TabPanel>
       <TabPanel value={value} index={4}>
-        Tech Talks
+        <TechTalks/>
       </TabPanel>
       <TabPanel value={value} index={5}>
         Social Networks 
