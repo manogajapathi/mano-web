@@ -17,6 +17,7 @@ import AboutMe from './tabs/AboutMe';
 import Works from './tabs/Works';
 import Colleges from './tabs/Colleges';
 import TechTalks from './tabs/TechTalks';
+import Skills from './tabs/Skills';
 
 
 function TabPanel(props) {
@@ -92,7 +93,7 @@ export default function MenuTabs() {
         <AboutMe/>
       </TabPanel>
       <TabPanel value={value} index={1}>
-        My Skills
+        <Skills/>
       </TabPanel>
       <TabPanel value={value} index={2}>
         <Works/>
