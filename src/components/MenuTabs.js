@@ -18,6 +18,7 @@ import Works from './tabs/Works';
 import Colleges from './tabs/Colleges';
 import TechTalks from './tabs/TechTalks';
 import Skills from './tabs/Skills';
+import Networks from './tabs/Networks';
 
 
 function TabPanel(props) {
@@ -105,7 +106,7 @@ export default function MenuTabs() {
         <TechTalks/>
       </TabPanel>
       <TabPanel value={value} index={5}>
-        Social Networks 
+        <Networks/>
       </TabPanel>
       <TabPanel value={value} index={6}>
         About this Site
