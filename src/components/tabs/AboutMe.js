@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     textAlign: 'justify',
   },
   media: {
-    height: 240,
+    height: 420,
   },
   fullList: {
     width: 'auto',

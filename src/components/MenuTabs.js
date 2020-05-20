@@ -58,7 +58,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   title: {
-    paddingLeft : 10,
+    backgroundColor: "#2f383b"
 }
 }));
 
@@ -72,7 +72,7 @@ export default function MenuTabs() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.title}>
       
         <Tabs
           value={value}

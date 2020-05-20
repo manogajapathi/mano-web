@@ -10,13 +10,16 @@ import dp from '../imgs/mano.jpg';
 const useStyles = makeStyles(theme => ({
     title: {
         paddingLeft : 10,
+    },
+    titlebar: {
+        backgroundColor: "#3f51b5",
     }
   }));
 const Header = () => {
     const classes = useStyles();
     return(
         <div>
-            <AppBar position="static" color="secondary"> 
+            <AppBar position="static" className={classes.titlebar}> 
                 <ToolBar>
                     <Avatar alt="Remy Sharp" src={dp}/>
                         <Typography variant="title" color="inherit" className={classes.title}>
