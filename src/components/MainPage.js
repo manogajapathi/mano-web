@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
     padding: 'none',
     textAlign: 'center',
     color: theme.palette.text.secondary,
-  },
+  }
 }));
 
 export default function MainPage() {
