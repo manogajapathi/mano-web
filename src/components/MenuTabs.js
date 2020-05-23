@@ -30,8 +30,8 @@ function TabPanel(props) {
       component="div"
       role="tabpanel"
       hidden={value !== index}
-      id={`scrollable-prevent-tabpanel-${index}`}
-      aria-labelledby={`scrollable-prevent-tab-${index}`}
+      id={`full-width-tabpanel-${index}`}
+      aria-labelledby={`full-width-tabpanel-${index}`}
       {...other}
     >
       {value === index && <Box p={3}>{children}</Box>}
@@ -47,8 +47,8 @@ TabPanel.propTypes = {
 
 function a11yProps(index) {
   return {
-    id: `scrollable-prevent-tab-${index}`,
-    'aria-controls': `scrollable-prevent-tabpanel-${index}`,
+    id: `full-width-tabpanel-${index}`,
+    'aria-controls': `full-width-tabpanel-${index}`,
   };
 }
 
@@ -83,9 +83,9 @@ export default function MenuTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
+          indicatorColor="primary"
           variant="scrollable"
-          scrollButtons="off"
-          aria-label="scrollable prevent tabs example"
+          aria-label="scrollable tabs"
         >
           <Tab icon={<PersonPinIcon  />} aria-label="person " {...a11yProps(0)} />
           <Tab icon={<FavoriteIcon />} aria-label="favorite" {...a11yProps(1)} />

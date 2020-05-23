@@ -104,10 +104,11 @@ StyledTreeItem.propTypes = {
 
 const useStyles = makeStyles({
   root: {
-    height: 264,
+    height: '100%',
     flexGrow: 1,
-    maxWidth: 400,
+    maxWidth: '100%',
     textAlign: 'left',
+    paddingBottom: '20px'
   },
   page: {
       display: 'inline-flex',
