@@ -12,6 +12,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.0",
+    "react-swipeable-views": "^0.13.9",
     "react-youtube": "^7.11.2"
   },
   "scripts": {

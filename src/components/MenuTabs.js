@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
+import SwipeableViews from 'react-swipeable-views';
+import { makeStyles, useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
@@ -64,10 +65,15 @@ const useStyles = makeStyles(theme => ({
 
 export default function MenuTabs() {
   const classes = useStyles();
+  const theme = useTheme();
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
+  };
+
+  const handleChangeIndex = (index) => {
+    setValue(index);
   };
 
   return (
@@ -90,27 +96,33 @@ export default function MenuTabs() {
           <Tab icon={<HelpIcon />} aria-label="help" {...a11yProps(6)} />
         </Tabs>
       </AppBar>
-      <TabPanel value={value} index={0}>
+      <SwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={value}
+        onChangeIndex={handleChangeIndex}
+      >
+      <TabPanel value={value} index={0} dir={theme.direction}>
         <AboutMe/>
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={1} dir={theme.direction}>
         <Skills/>
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      <TabPanel value={value} index={2} dir={theme.direction}>
         <Works/>
       </TabPanel>
-      <TabPanel value={value} index={3}>
+      <TabPanel value={value} index={3} dir={theme.direction}>
         <Colleges/>
       </TabPanel>
-      <TabPanel value={value} index={4}>
+      <TabPanel value={value} index={4} dir={theme.direction}>
         <TechTalks/>
       </TabPanel>
-      <TabPanel value={value} index={5}>
+      <TabPanel value={value} index={5} dir={theme.direction}>
         <Networks/>
       </TabPanel>
-      <TabPanel value={value} index={6}>
+      <TabPanel value={value} index={6} dir={theme.direction}>
         About this Site
       </TabPanel>
+      </SwipeableViews>
     </div>
   );
 }
