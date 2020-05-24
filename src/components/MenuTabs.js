@@ -20,6 +20,7 @@ import Colleges from './tabs/Colleges';
 import TechTalks from './tabs/TechTalks';
 import Skills from './tabs/Skills';
 import Networks from './tabs/Networks';
+import AboutSite from './tabs/AboutSite';
 
 
 function TabPanel(props) {
@@ -83,7 +84,6 @@ export default function MenuTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
-          indicatorColor="primary"
           variant="scrollable"
           aria-label="scrollable tabs"
         >
@@ -120,7 +120,7 @@ export default function MenuTabs() {
         <Networks/>
       </TabPanel>
       <TabPanel value={value} index={6} dir={theme.direction}>
-        About this Site
+        <AboutSite/>
       </TabPanel>
       </SwipeableViews>
     </div>

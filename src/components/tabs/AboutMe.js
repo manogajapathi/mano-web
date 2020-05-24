@@ -38,7 +38,7 @@ export default function AboutMe() {
               Hey! this is Mano, born in pondicherry currently living in chennai. I started my career 
               as a lecturer and moved on to my passionate developer job. Currently i have 7 years
               of teaching and 3 years of software industry experience. I am quick learner and addicted to learn 
-              new techs to upskill and try out new stuffs. As learning is essentional for everyone, it is also
+              new techs to upskill and try out new stuffs. As learning is essential for everyone, it is also
               must that we should share our knowledge to others which we knew. Check out my skills and tech talks.
               I am an enthusiastic developer who can deliver things at right time with right cost, hire me if you are looking for a freelancer.
           </Typography>
