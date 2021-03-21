@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a04a549.chunk.css",
-    "main.js": "/static/js/main.870a5ab1.chunk.js",
-    "main.js.map": "/static/js/main.870a5ab1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.df5ca025.js",
-    "runtime-main.js.map": "/static/js/runtime-main.df5ca025.js.map",
-    "static/js/2.6a276e0b.chunk.js": "/static/js/2.6a276e0b.chunk.js",
-    "static/js/2.6a276e0b.chunk.js.map": "/static/js/2.6a276e0b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.21690e1d7c99c6009f6289b60c30503c.js": "/precache-manifest.21690e1d7c99c6009f6289b60c30503c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4a04a549.chunk.css.map": "/static/css/main.4a04a549.chunk.css.map",
-    "static/js/2.6a276e0b.chunk.js.LICENSE.txt": "/static/js/2.6a276e0b.chunk.js.LICENSE.txt",
-    "static/media/fb.png": "/static/media/fb.44be1ccd.png",
-    "static/media/info.png": "/static/media/info.f94a066e.png",
-    "static/media/insta.png": "/static/media/insta.097b7749.png",
-    "static/media/mano.jpg": "/static/media/mano.82e0ccb3.jpg",
-    "static/media/mano2.jpg": "/static/media/mano2.457c5fe8.jpg",
-    "static/media/smule.png": "/static/media/smule.793a3f5d.png",
-    "static/media/wp.png": "/static/media/wp.188a2786.png",
-    "static/media/ytube.png": "/static/media/ytube.bf3e2585.png"
+    "main.css": "/mano-web/static/css/main.4a04a549.chunk.css",
+    "main.js": "/mano-web/static/js/main.bfc9f6ac.chunk.js",
+    "main.js.map": "/mano-web/static/js/main.bfc9f6ac.chunk.js.map",
+    "runtime-main.js": "/mano-web/static/js/runtime-main.ccc06d78.js",
+    "runtime-main.js.map": "/mano-web/static/js/runtime-main.ccc06d78.js.map",
+    "static/js/2.d3a9b470.chunk.js": "/mano-web/static/js/2.d3a9b470.chunk.js",
+    "static/js/2.d3a9b470.chunk.js.map": "/mano-web/static/js/2.d3a9b470.chunk.js.map",
+    "index.html": "/mano-web/index.html",
+    "precache-manifest.34951c5daaf3b2c35340f1fab744cb45.js": "/mano-web/precache-manifest.34951c5daaf3b2c35340f1fab744cb45.js",
+    "service-worker.js": "/mano-web/service-worker.js",
+    "static/css/main.4a04a549.chunk.css.map": "/mano-web/static/css/main.4a04a549.chunk.css.map",
+    "static/js/2.d3a9b470.chunk.js.LICENSE.txt": "/mano-web/static/js/2.d3a9b470.chunk.js.LICENSE.txt",
+    "static/media/fb.png": "/mano-web/static/media/fb.44be1ccd.png",
+    "static/media/info.png": "/mano-web/static/media/info.f94a066e.png",
+    "static/media/insta.png": "/mano-web/static/media/insta.097b7749.png",
+    "static/media/mano.jpg": "/mano-web/static/media/mano.82e0ccb3.jpg",
+    "static/media/mano2.jpg": "/mano-web/static/media/mano2.457c5fe8.jpg",
+    "static/media/smule.png": "/mano-web/static/media/smule.793a3f5d.png",
+    "static/media/wp.png": "/mano-web/static/media/wp.188a2786.png",
+    "static/media/ytube.png": "/mano-web/static/media/ytube.bf3e2585.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.df5ca025.js",
-    "static/js/2.6a276e0b.chunk.js",
+    "static/js/runtime-main.ccc06d78.js",
+    "static/js/2.d3a9b470.chunk.js",
     "static/css/main.4a04a549.chunk.css",
-    "static/js/main.870a5ab1.chunk.js"
+    "static/js/main.bfc9f6ac.chunk.js"
   ]
 }
