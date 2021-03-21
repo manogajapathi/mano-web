@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mano-web/static/css/main.4a04a549.chunk.css",
-    "main.js": "/mano-web/static/js/main.23b3f5e1.chunk.js",
-    "main.js.map": "/mano-web/static/js/main.23b3f5e1.chunk.js.map",
+    "main.js": "/mano-web/static/js/main.ec3f9fda.chunk.js",
+    "main.js.map": "/mano-web/static/js/main.ec3f9fda.chunk.js.map",
     "runtime-main.js": "/mano-web/static/js/runtime-main.ccc06d78.js",
     "runtime-main.js.map": "/mano-web/static/js/runtime-main.ccc06d78.js.map",
-    "static/js/2.9a0ebf73.chunk.js": "/mano-web/static/js/2.9a0ebf73.chunk.js",
-    "static/js/2.9a0ebf73.chunk.js.map": "/mano-web/static/js/2.9a0ebf73.chunk.js.map",
+    "static/js/2.ebc8dd16.chunk.js": "/mano-web/static/js/2.ebc8dd16.chunk.js",
+    "static/js/2.ebc8dd16.chunk.js.map": "/mano-web/static/js/2.ebc8dd16.chunk.js.map",
     "index.html": "/mano-web/index.html",
-    "precache-manifest.8655ff8775535120ee71ca82c170f619.js": "/mano-web/precache-manifest.8655ff8775535120ee71ca82c170f619.js",
+    "precache-manifest.d24f2c1e05a66969bb967596446c1f4d.js": "/mano-web/precache-manifest.d24f2c1e05a66969bb967596446c1f4d.js",
     "service-worker.js": "/mano-web/service-worker.js",
     "static/css/main.4a04a549.chunk.css.map": "/mano-web/static/css/main.4a04a549.chunk.css.map",
-    "static/js/2.9a0ebf73.chunk.js.LICENSE.txt": "/mano-web/static/js/2.9a0ebf73.chunk.js.LICENSE.txt",
+    "static/js/2.ebc8dd16.chunk.js.LICENSE.txt": "/mano-web/static/js/2.ebc8dd16.chunk.js.LICENSE.txt",
     "static/media/fb.png": "/mano-web/static/media/fb.44be1ccd.png",
     "static/media/info.png": "/mano-web/static/media/info.f94a066e.png",
     "static/media/insta.png": "/mano-web/static/media/insta.097b7749.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ccc06d78.js",
-    "static/js/2.9a0ebf73.chunk.js",
+    "static/js/2.ebc8dd16.chunk.js",
     "static/css/main.4a04a549.chunk.css",
-    "static/js/main.23b3f5e1.chunk.js"
+    "static/js/main.ec3f9fda.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "937f0d23026dbaea1d4e296c25c4353a",
+    "revision": "c4be61c5b3c072114b8fb12fd784bea8",
     "url": "/mano-web/index.html"
   },
   {
-    "revision": "a70ac027a3412f249c38",
+    "revision": "40db7e6f37fcdda9cbd1",
     "url": "/mano-web/static/css/main.4a04a549.chunk.css"
   },
   {
-    "revision": "72ffb1f953850940a084",
-    "url": "/mano-web/static/js/2.9a0ebf73.chunk.js"
+    "revision": "68b83b0bca030d12977d",
+    "url": "/mano-web/static/js/2.ebc8dd16.chunk.js"
   },
   {
     "revision": "9fd3a780d50ebc7200a9f6d069323925",
-    "url": "/mano-web/static/js/2.9a0ebf73.chunk.js.LICENSE.txt"
+    "url": "/mano-web/static/js/2.ebc8dd16.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a70ac027a3412f249c38",
-    "url": "/mano-web/static/js/main.23b3f5e1.chunk.js"
+    "revision": "40db7e6f37fcdda9cbd1",
+    "url": "/mano-web/static/js/main.ec3f9fda.chunk.js"
   },
   {
     "revision": "6bceae42143153cc07b0",
