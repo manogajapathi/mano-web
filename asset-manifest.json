@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a04a549.chunk.css",
-    "main.js": "/static/js/main.eef4bdbe.chunk.js",
-    "main.js.map": "/static/js/main.eef4bdbe.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.df5ca025.js",
-    "runtime-main.js.map": "/static/js/runtime-main.df5ca025.js.map",
-    "static/js/2.57aa0996.chunk.js": "/static/js/2.57aa0996.chunk.js",
-    "static/js/2.57aa0996.chunk.js.map": "/static/js/2.57aa0996.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.53cce4d5472b2202e46308a90be0ea9f.js": "/precache-manifest.53cce4d5472b2202e46308a90be0ea9f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.4a04a549.chunk.css.map": "/static/css/main.4a04a549.chunk.css.map",
-    "static/js/2.57aa0996.chunk.js.LICENSE.txt": "/static/js/2.57aa0996.chunk.js.LICENSE.txt",
-    "static/media/fb.png": "/static/media/fb.44be1ccd.png",
-    "static/media/info.png": "/static/media/info.f94a066e.png",
-    "static/media/insta.png": "/static/media/insta.097b7749.png",
-    "static/media/mano.jpg": "/static/media/mano.82e0ccb3.jpg",
-    "static/media/mano2.jpg": "/static/media/mano2.457c5fe8.jpg",
-    "static/media/smule.png": "/static/media/smule.793a3f5d.png",
-    "static/media/wp.png": "/static/media/wp.188a2786.png",
-    "static/media/ytube.png": "/static/media/ytube.bf3e2585.png"
+    "main.css": "./static/css/main.4a04a549.chunk.css",
+    "main.js": "./static/js/main.b267b14f.chunk.js",
+    "main.js.map": "./static/js/main.b267b14f.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.94286e23.js",
+    "runtime-main.js.map": "./static/js/runtime-main.94286e23.js.map",
+    "static/js/2.b5a6d615.chunk.js": "./static/js/2.b5a6d615.chunk.js",
+    "static/js/2.b5a6d615.chunk.js.map": "./static/js/2.b5a6d615.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.5d59ac320f77465d7c9ce23f9a58545c.js": "./precache-manifest.5d59ac320f77465d7c9ce23f9a58545c.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.4a04a549.chunk.css.map": "./static/css/main.4a04a549.chunk.css.map",
+    "static/js/2.b5a6d615.chunk.js.LICENSE.txt": "./static/js/2.b5a6d615.chunk.js.LICENSE.txt",
+    "static/media/fb.png": "./static/media/fb.44be1ccd.png",
+    "static/media/info.png": "./static/media/info.f94a066e.png",
+    "static/media/insta.png": "./static/media/insta.097b7749.png",
+    "static/media/mano.jpg": "./static/media/mano.82e0ccb3.jpg",
+    "static/media/mano2.jpg": "./static/media/mano2.457c5fe8.jpg",
+    "static/media/smule.png": "./static/media/smule.793a3f5d.png",
+    "static/media/wp.png": "./static/media/wp.188a2786.png",
+    "static/media/ytube.png": "./static/media/ytube.bf3e2585.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.df5ca025.js",
-    "static/js/2.57aa0996.chunk.js",
+    "static/js/runtime-main.94286e23.js",
+    "static/js/2.b5a6d615.chunk.js",
     "static/css/main.4a04a549.chunk.css",
-    "static/js/main.eef4bdbe.chunk.js"
+    "static/js/main.b267b14f.chunk.js"
   ]
 }
