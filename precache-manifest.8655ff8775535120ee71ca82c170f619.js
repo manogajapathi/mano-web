@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04ee8583f83fdf09638c093299282ba9",
+    "revision": "937f0d23026dbaea1d4e296c25c4353a",
     "url": "/mano-web/index.html"
   },
   {
-    "revision": "a093df73f8d2228bd1b6",
+    "revision": "a70ac027a3412f249c38",
     "url": "/mano-web/static/css/main.4a04a549.chunk.css"
   },
   {
-    "revision": "136dd7b731d0829640af",
-    "url": "/mano-web/static/js/2.3f9a7a18.chunk.js"
+    "revision": "72ffb1f953850940a084",
+    "url": "/mano-web/static/js/2.9a0ebf73.chunk.js"
   },
   {
-    "revision": "ae6c645dac678bc139364e8469d51dd7",
-    "url": "/mano-web/static/js/2.3f9a7a18.chunk.js.LICENSE.txt"
+    "revision": "9fd3a780d50ebc7200a9f6d069323925",
+    "url": "/mano-web/static/js/2.9a0ebf73.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a093df73f8d2228bd1b6",
-    "url": "/mano-web/static/js/main.9faaacfb.chunk.js"
+    "revision": "a70ac027a3412f249c38",
+    "url": "/mano-web/static/js/main.23b3f5e1.chunk.js"
   },
   {
     "revision": "6bceae42143153cc07b0",
