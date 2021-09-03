@@ -36,6 +36,13 @@ class TechTalks extends React.Component {
         </Grid>
         <Grid item xs={4}>
             <YouTube
+                videoId="IcCWpEE-sz4"
+                opts={opts}
+                onReady={this._onReady}
+            />
+        </Grid>
+        <Grid item xs={4}>
+            <YouTube
                 videoId="VnwM123VXjc"
                 opts={opts}
                 onReady={this._onReady}
