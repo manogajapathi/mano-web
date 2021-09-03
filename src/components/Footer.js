@@ -30,6 +30,9 @@ export default function Footer() {
         <Button size="small" color="primary">
         <a style={{textDecoration: 'none',color: '#3f51b5'}} href="mailto:manogajapathi@gmail.com?subject=Interested in Hiring you!&body=Hi Mano">Mail</a>  
         </Button>
+        <Button size="small" color="primary">
+        <a style={{textDecoration: 'none',color: '#3f51b5'}} href="https://classadviser.in">Blogs</a>  
+        </Button>
       </CardActions>
     </Card>
   );

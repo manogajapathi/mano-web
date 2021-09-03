@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function getSteps() {
-  return ['2010', '2015', '2017', '2018', '2019', '2020'];
+  return ['2010', '2015', '2017', '2018', '2019', '2020','2021'];
 }
 
 function getStepContent(step) {
@@ -49,6 +49,9 @@ function getStepContent(step) {
     case 5:
       return `Promoted as Senior Software Engineer in TechStar Groups and
               Currently working in Verizon Olympia Tech Park.`;
+    case 6:
+      return `Got offer from Collabera technologies as Senior Software Engineer and
+      Currently working in Paypal chennai.`;
     default:
       return 'Unknown step';
   }
