@@ -1,30 +1,21 @@
 {
   "files": {
-    "main.css": "/manogajapathi.com/static/css/main.4a04a549.chunk.css",
-    "main.js": "/manogajapathi.com/static/js/main.4eb06587.chunk.js",
-    "main.js.map": "/manogajapathi.com/static/js/main.4eb06587.chunk.js.map",
-    "runtime-main.js": "/manogajapathi.com/static/js/runtime-main.f9f5ae66.js",
-    "runtime-main.js.map": "/manogajapathi.com/static/js/runtime-main.f9f5ae66.js.map",
-    "static/js/2.7ea5bf64.chunk.js": "/manogajapathi.com/static/js/2.7ea5bf64.chunk.js",
-    "static/js/2.7ea5bf64.chunk.js.map": "/manogajapathi.com/static/js/2.7ea5bf64.chunk.js.map",
+    "main.css": "/manogajapathi.com/static/css/main.2e5d7c14.css",
+    "main.js": "/manogajapathi.com/static/js/main.d5e20b02.js",
+    "static/media/smule.png": "/manogajapathi.com/static/media/smule.4f01c3fecb6096972441.png",
+    "static/media/insta.png": "/manogajapathi.com/static/media/insta.a2d671651bdb6b761fd3.png",
+    "static/media/mano2.jpg": "/manogajapathi.com/static/media/mano2.0a180d385d17a2f29da1.jpg",
+    "static/media/mano.jpg": "/manogajapathi.com/static/media/mano.a9b637f187a11fb545a5.jpg",
+    "static/media/wp.png": "/manogajapathi.com/static/media/wp.0f74af526ffeb126190c.png",
+    "static/media/info.png": "/manogajapathi.com/static/media/info.ea5586739d2af8b378f9.png",
+    "static/media/ytube.png": "/manogajapathi.com/static/media/ytube.963c761dbb377a07f86d.png",
+    "static/media/fb.png": "/manogajapathi.com/static/media/fb.50e3a49306a07eb69223.png",
     "index.html": "/manogajapathi.com/index.html",
-    "precache-manifest.1bbcba664c7eff5d24f1d4e4f3066d76.js": "/manogajapathi.com/precache-manifest.1bbcba664c7eff5d24f1d4e4f3066d76.js",
-    "service-worker.js": "/manogajapathi.com/service-worker.js",
-    "static/css/main.4a04a549.chunk.css.map": "/manogajapathi.com/static/css/main.4a04a549.chunk.css.map",
-    "static/js/2.7ea5bf64.chunk.js.LICENSE.txt": "/manogajapathi.com/static/js/2.7ea5bf64.chunk.js.LICENSE.txt",
-    "static/media/fb.png": "/manogajapathi.com/static/media/fb.44be1ccd.png",
-    "static/media/info.png": "/manogajapathi.com/static/media/info.f94a066e.png",
-    "static/media/insta.png": "/manogajapathi.com/static/media/insta.097b7749.png",
-    "static/media/mano.jpg": "/manogajapathi.com/static/media/mano.82e0ccb3.jpg",
-    "static/media/mano2.jpg": "/manogajapathi.com/static/media/mano2.457c5fe8.jpg",
-    "static/media/smule.png": "/manogajapathi.com/static/media/smule.793a3f5d.png",
-    "static/media/wp.png": "/manogajapathi.com/static/media/wp.188a2786.png",
-    "static/media/ytube.png": "/manogajapathi.com/static/media/ytube.bf3e2585.png"
+    "main.2e5d7c14.css.map": "/manogajapathi.com/static/css/main.2e5d7c14.css.map",
+    "main.d5e20b02.js.map": "/manogajapathi.com/static/js/main.d5e20b02.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9f5ae66.js",
-    "static/js/2.7ea5bf64.chunk.js",
-    "static/css/main.4a04a549.chunk.css",
-    "static/js/main.4eb06587.chunk.js"
+    "static/css/main.2e5d7c14.css",
+    "static/js/main.d5e20b02.js"
   ]
 }
