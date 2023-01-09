@@ -66,6 +66,7 @@ export default function Colleges() {
 
   return (
     <div className={classes.root}>
+      <Typography color="primary">Studies</Typography>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((label, index) => (
           <Step key={label}>
@@ -97,7 +98,7 @@ export default function Colleges() {
       </Stepper>
       {activeStep === steps.length && (
         <Paper square elevation={0} className={classes.resetContainer}>
-          <Typography>That's all about my academic</Typography>
+          <Typography>That's all about my academics</Typography>
           <Button onClick={handleReset} className={classes.button}>
             Reset
           </Button>

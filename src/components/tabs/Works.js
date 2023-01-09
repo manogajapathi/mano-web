@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function getSteps() {
-  return ['2010', '2015', '2017', '2018', '2019', '2020','2021'];
+  return ['2010', '2015', '2017', '2018', '2019', '2020','2021','2023'];
 }
 
 function getStepContent(step) {
@@ -48,10 +48,13 @@ function getStepContent(step) {
               contractual again.`;
     case 5:
       return `Promoted as Senior Software Engineer in TechStar Groups and
-              Currently working in Verizon Olympia Tech Park.`;
+              worked in Verizon Olympia Tech Park.`;
     case 6:
       return `Got offer from Collabera technologies as Senior Software Engineer and
-      Currently working in Paypal chennai.`;
+              worked with Paypal chennai (WFH).`;
+    case 7:
+      return `Got full time oppertunity with Standard Charted Bank as Analyst Development and
+              Currently working in chennai with hybrid work model.`;
     default:
       return 'Unknown step';
   }
@@ -76,6 +79,7 @@ export default function Works() {
 
   return (
     <div className={classes.root}>
+      <Typography color="primary">Career</Typography>
       <Stepper activeStep={activeStep} orientation="vertical">
         {steps.map((label, index) => (
           <Step key={label}>

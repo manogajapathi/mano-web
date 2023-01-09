@@ -4,7 +4,7 @@ import ToolBar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import { makeStyles } from '@material-ui/core/styles';
-import dp from '../imgs/mano.jpg';
+import dp from '../imgs/mano.png';
 import GetAppIcon from '@material-ui/icons/GetApp';
 import Link from '@material-ui/core/Link';
 

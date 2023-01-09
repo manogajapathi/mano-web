@@ -9,6 +9,7 @@ import insta from '../../imgs/logos/insta.png';
 import smule from '../../imgs/logos/smule.png';
 import ytube from '../../imgs/logos/ytube.png';
 import wp from '../../imgs/logos/wp.png';
+import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -27,7 +28,8 @@ export default function Networks() {
   return (
     <div className={classes.root}> 
     <Grid container >
-      <Grid item xs={12} className={classes.input}>Social Networks
+      <Grid item xs={12} className={classes.input}>
+        <Typography color="primary">Social Networks</Typography> 
       </Grid>
       <Grid item xs={3}>
       <a href="http://www.github.com/manogajapathi" target="_blank" rel="noopener noreferrer"><img src={git} height="60px" width="60px" alt="GitHub" className={classes.input}/></a>

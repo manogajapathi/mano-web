@@ -2,6 +2,7 @@ import React from 'react';
 import YouTube from 'react-youtube';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import { Typography } from '@material-ui/core';
  
 class TechTalks extends React.Component {
 
@@ -32,7 +33,7 @@ class TechTalks extends React.Component {
     <div className={classes.root}>
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          Tech Talks
+          <Typography color="primary">Tech Talks</Typography>
         </Grid>
         <Grid item xs={4}>
             <YouTube

@@ -14,7 +14,7 @@ import Work from '@material-ui/icons/Work';
 import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import AboutMe from './tabs/AboutMe';
+import AboutMeNew from './tabs/AboutMeNew';
 import Works from './tabs/Works';
 import Colleges from './tabs/Colleges';
 import TechTalks from './tabs/TechTalks';
@@ -102,7 +102,7 @@ export default function MenuTabs() {
         onChangeIndex={handleChangeIndex}
       >
       <TabPanel value={value} index={0} dir={theme.direction}>
-        <AboutMe/>
+        <AboutMeNew/>
       </TabPanel>
       <TabPanel value={value} index={1} dir={theme.direction}>
         <Skills/>

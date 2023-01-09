@@ -125,7 +125,7 @@ export default function Skills() {
     <div className={classes.page}> 
     <Grid container>
         <Grid item xs={12}>
-        <Typography className={classes.typo}>Technical Skills</Typography>
+        <Typography color="primary" className={classes.typo}>Technical Skills</Typography>
         </Grid>
         <Grid item xs={12}>
         <TreeView
