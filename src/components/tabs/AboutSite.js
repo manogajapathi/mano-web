@@ -31,7 +31,7 @@ export default function AboutSite() {
             About the site
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            This website is servered by Google domains, designs made in React with material-ui from scratch and hosted in heroku server from my private github repository.
+            This web app is servered by Godaddy domain, designs made in React with material-ui from scratch and hosted in netlify server from my github repository.
           </Typography>
         </CardContent>
       </CardActionArea>
