@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 function getSteps() {
-  return ['2010', '2015', '2017', '2018', '2019', '2020','2021','2023'];
+  return ['2010', '2015', '2017', '2018', '2019', '2020','2021','2023','2025'];
 }
 
 function getStepContent(step) {
@@ -55,6 +55,8 @@ function getStepContent(step) {
     case 7:
       return `Got full time oppertunity with Standard Charted Bank as Analyst Development and
               Currently working in chennai with hybrid work model.`;
+    case 8:
+      return `On Standard Charted Bank position changed to Associate Backend Engineer.`;
     default:
       return 'Unknown step';
   }
