@@ -1,109 +1,118 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Stepper from '@material-ui/core/Stepper';
-import Step from '@material-ui/core/Step';
-import StepLabel from '@material-ui/core/StepLabel';
-import StepContent from '@material-ui/core/StepContent';
-import Button from '@material-ui/core/Button';
-import Paper from '@material-ui/core/Paper';
+import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import Card from '@material-ui/core/Card';
 
-const useStyles = makeStyles(theme => ({
+const education = [
+  {
+    year: '2004',
+    title: 'State Board',
+    place: 'Calve College Govt Hr. Sec. School',
+    score: '66.4%',
+  },
+  {
+    year: '2007',
+    title: 'Diploma in Computer Science & Engineering',
+    place: 'Padaleswarar Polytechnic College',
+    score: '83.2%',
+  },
+  {
+    year: '2010',
+    title: 'B.E. in Computer Science & Engineering',
+    place: 'Mailam Engineering College',
+    score: '75%',
+  },
+  {
+    year: '2015',
+    title: 'M.E. in Computer Science & Engineering',
+    place: 'Sathyabama University',
+    score: '8.26 CGPA',
+  },
+];
+
+const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
-    textAlign: 'left',
+    padding: theme.spacing(2),
+    color: '#e2e8f0',
   },
-  button: {
-    marginTop: theme.spacing(1),
-    marginRight: theme.spacing(1),
-  },
-  actionsContainer: {
-    marginBottom: theme.spacing(2),
-  },
-  resetContainer: {
+  card: {
+    background: 'linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(17, 24, 39, 0.8))',
+    border: '1px solid rgba(148,163,184,0.18)',
+    borderRadius: 24,
     padding: theme.spacing(3),
+    boxShadow: '0 18px 40px rgba(15, 23, 42, 0.16)',
+  },
+  heading: {
+    fontWeight: 800,
+    letterSpacing: '-0.04em',
+    marginBottom: theme.spacing(3),
+  },
+  eduCard: {
+    height: '100%',
+    background: 'rgba(15, 23, 42, 0.7)',
+    border: '1px solid rgba(148,163,184,0.12)',
+    borderRadius: 18,
+    padding: theme.spacing(2.2),
+    color: '#e2e8f0',
+  },
+  year: {
+    color: '#7dd3fc',
+    fontWeight: 800,
+    marginBottom: theme.spacing(0.8),
+  },
+  title: {
+    fontWeight: 700,
+    color: '#f8fafc',
+    marginBottom: theme.spacing(0.7),
+  },
+  place: {
+    color: '#cbd5e1',
+    marginBottom: theme.spacing(1),
+    lineHeight: 1.7,
+  },
+  badge: {
+    display: 'inline-flex',
+    padding: theme.spacing(0.55, 1),
+    borderRadius: 999,
+    background: 'rgba(52,211,153,0.12)',
+    border: '1px solid rgba(52,211,153,0.24)',
+    color: '#a7f3d0',
+    fontWeight: 700,
+  },
+  [theme.breakpoints.down('sm')]: {
+    root: {
+      padding: theme.spacing(1.5),
+    },
+    card: {
+      padding: theme.spacing(2),
+    },
   },
 }));
 
-function getSteps() {
-  return ['2004', '2007', '2010', '2015'];
-}
-
-function getStepContent(step) {
-  switch (step) {
-    case 0:
-      return `Completed State Board examination at Calve College Govt Hr. Sec. School with 66.4%`;
-    case 1:
-      return `Graduated Diploma in Computer Science and Engineering at Padaleswarar
-              Polytechnic College with 83.2%`;
-    case 2:
-      return `Graduated Bachelor of Computer Science and Engineering at Mailam Enginnering College under
-              Anna Unviersity with 75%`;
-    case 3:
-      return `Graduated Master of Computer Science and Engineering at Sathyabama University with grade 8.26`;
-
-    default:
-      return 'Unknown step';
-  }
-}
-
 export default function Colleges() {
   const classes = useStyles();
-  const [activeStep, setActiveStep] = React.useState(0);
-  const steps = getSteps();
-
-  const handleNext = () => {
-    setActiveStep(prevActiveStep => prevActiveStep + 1);
-  };
-
-  const handleBack = () => {
-    setActiveStep(prevActiveStep => prevActiveStep - 1);
-  };
-
-  const handleReset = () => {
-    setActiveStep(0);
-  };
 
   return (
     <div className={classes.root}>
-      <Typography color="primary">Studies</Typography>
-      <Stepper activeStep={activeStep} orientation="vertical">
-        {steps.map((label, index) => (
-          <Step key={label}>
-            <StepLabel>{label}</StepLabel>
-            <StepContent>
-              <Typography>{getStepContent(index)}</Typography>
-              <div className={classes.actionsContainer}>
-                <div>
-                  <Button
-                    disabled={activeStep === 0}
-                    onClick={handleBack}
-                    className={classes.button}
-                  >
-                    Back
-                  </Button>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    onClick={handleNext}
-                    className={classes.button}
-                  >
-                    {activeStep === steps.length - 1 ? 'Finish' : 'Next'}
-                  </Button>
-                </div>
-              </div>
-            </StepContent>
-          </Step>
-        ))}
-      </Stepper>
-      {activeStep === steps.length && (
-        <Paper square elevation={0} className={classes.resetContainer}>
-          <Typography>That's all about my academics</Typography>
-          <Button onClick={handleReset} className={classes.button}>
-            Reset
-          </Button>
-        </Paper>
-      )}
+      <div className={classes.card}>
+        <Typography variant="h4" className={classes.heading}>Education</Typography>
+
+        <Grid container spacing={2}>
+          {education.map((item) => (
+            <Grid item xs={12} md={6} key={`${item.year}-${item.title}`}>
+              <Card className={classes.eduCard}>
+                <Typography variant="h6" className={classes.year}>{item.year}</Typography>
+                <Typography variant="h6" className={classes.title}>{item.title}</Typography>
+                <Typography variant="body1" className={classes.place}>{item.place}</Typography>
+                <div className={classes.badge}>{item.score}</div>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </div>
     </div>
   );
 }
+
